@@ -1,0 +1,198 @@
+/*----------導覽列-----------*/
+
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans+TC:100,300,400,500,700,900&display=swap");
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css");
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: 'Noto Sans TC', sans-serif;
+    border: solid 1px;
+}
+
+body {
+    padding: 0px 130px;
+    margin: 0px;
+}
+
+.main-header {
+    display: flex;
+    background-color: #FFF;
+}
+
+.main-header .container {
+    display: flex;
+    align-items: center;
+    /*垂直置中*/
+    padding: 0px;
+    width: 1660px;
+    margin: auto;
+}
+
+.main-header .Logo {
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+    width: 250px;
+    max-width: 270px;
+    max-height: 180px;
+}
+
+.main-header .Logo img {
+    width: 100%;
+    vertical-align: middle;
+}
+
+.main-header .main-nav {
+    margin: auto;
+    display: inline-flex;
+    height: 80px;
+    width: 1180px;
+    align-items: center;
+    right: 0px;
+}
+
+.main-header .main-nav a {
+    height: 60px;
+    line-height: 60px;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 25px;
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+    background-color: #EA994A;
+    border: solid 1px #D26E23;
+    border-radius: 10px;
+    padding: 0px 2em;
+    margin: 0px 5px;
+    position: relative;
+    transform: translateY(0px);
+}
+
+.main-header .main-nav a:hover {
+    transform: translateY(-10px);
+}
+
+.main-header .main-nav a:after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    bottom: -2px;
+    height: 0;
+    border-bottom: 1px solid #fff;
+    transition: .5s;
+    background-color: #FFF;
+    color: #EA994A;
+}
+
+.main-header .main-nav a:hover:after {
+    left: 1em;
+    right: 1em;
+    background-color: #FFF;
+}
+
+.main-header .header-search {
+    display: flex;
+    padding-left: 10px;
+    width: 300px;
+    height: 60px;
+    /*緊密排列*/
+}
+
+.main-header .header-search button,
+.main-header .header-search input {
+    border: none;
+    background-color: #FFF;
+    width: 400px;
+    padding: 5px 10px;
+    margin: 0px;
+}
+
+.main-header .header-search input {
+    border-radius: 10px 0 0 10px;
+    max-height: 80px;
+    background-color: #EA994A;
+    border: solid 1px #D26E23;
+}
+
+.main-header .header-search button {
+    border-radius: 0 10px 10px 0;
+    max-height: 80px;
+    max-width: 80px;
+    background-color: #EA994A;
+    border: solid 1px #D26E23;
+    color: #FFF;
+    font-size: 25px;
+}
+
+.dropdown {
+    max-width: 450px;
+    float: left;
+}
+
+.dropdown .dropbtn {
+    font-size: 25px;
+    display: inline-flex;
+    border: none;
+    outline: none;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #FFF;
+    color: #EA994A;
+    border: solid 1px #D26E23;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+button {
+    width: 120px;
+}
+
+button i {
+    right: 0px;
+    width: 50px;
+    height: 50px;
+}
+
+.fa fa-search {
+    font-size: 10em;
+    width: 50px;
+}
+
+
+/*--------------導覽列結束-----------------*/
+
+footer {
+    max-width: 1920px;
+    max-height: 190px;
+    margin: 30px 0px 0px;
+    background-color: #EA994A;
+    color: #fff;
+}
+
+footer li {
+    font-size: 22pt;
+    margin: 0px;
+}

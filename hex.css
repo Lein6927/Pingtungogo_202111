@@ -1,0 +1,274 @@
+@charset "UTF-8";
+
+/* 我的css start----------------------------------------------------- */
+
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.wrap {
+    margin: 0 auto;
+    width: 1024px;
+}
+
+.header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.header img {
+    margin: 10px 0px;
+}
+
+.navbar {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+}
+
+.navbar li {
+    margin: 20px;
+}
+
+.navbar a {
+    color: mediumseagreen;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    color: midnightblue;
+}
+
+.banner {
+    text-align: center;
+    position: relative;
+}
+
+.banner img {
+    width: 100%;
+}
+
+.banner .bannerText {
+    position: absolute;
+    top: 5rem;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    color: #fff;
+    padding: 1rem;
+    font-size: 24px;
+}
+
+
+/* 課程分類------------------------------------------- */
+
+.iteam-control {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.iteam {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin: 15px;
+    padding: 20px;
+    width: 300px;
+    -webkit-box-shadow: 2px 2px 0.2rem 2px rgba(186, 186, 186, 0.372);
+    box-shadow: 2px 2px 0.2rem 2px rgba(186, 186, 186, 0.372);
+}
+
+.iteam h2 {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 1rem 0;
+}
+
+.iteam .image {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.iteam .rwdImg {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    height: 140px;
+}
+
+.iteam .rwdImg img {
+    height: 88px;
+}
+
+.iteam p {
+    text-align: justify;
+    font-weight: lighter;
+    line-height: 26px;
+}
+
+.iteam ul,
+.iteam li {
+    font-weight: lighter;
+    line-height: 30px;
+    text-align: left;
+}
+
+.iteam li {
+    list-style-type: square;
+}
+
+
+/* 優缺表單 data------------------------------------------- */
+
+.list {
+    text-align: left;
+}
+
+caption {
+    padding-bottom: 20px;
+    font-size: 25px;
+    font-weight: lighter;
+    letter-spacing: 10px;
+}
+
+table {
+    margin: 50px auto;
+    width: 800px;
+}
+
+thead,
+th,
+tr,
+td {
+    padding: 10px 20px;
+    color: #5b5b5b;
+    border-bottom: 1px solid #d0d0d0;
+}
+
+th {
+    background-color: #ededed;
+}
+
+.fontgreen {
+    color: #22945f;
+}
+
+
+/* 個資填寫 data------------------------------------------- */
+
+.bgcgreen {
+    background-color: #22945f;
+}
+
+.data {
+    padding: 40px;
+    text-align: center;
+    color: #fff;
+}
+
+.data .fontwhite {
+    font-size: 20px;
+    padding-bottom: 20px;
+    letter-spacing: 2px;
+    line-height: 30px;
+}
+
+.data .submit {
+    font-size: 15px;
+    background-color: darkseagreen;
+    padding: 8px 20px;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    float: right;
+}
+
+form {
+    margin: 15px;
+    text-align: left;
+    line-height: 1.5;
+}
+
+form>input {
+    height: 44px;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+}
+
+input {
+    width: 350px;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+}
+
+.data2 {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.data a:hover {
+    background-color: orangered;
+}
+
+
+/* footer------------------------------------------- */
+
+.footer {
+    color: #727272;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    line-height: 30px;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.contant {
+    text-align: left;
+}
+
+.footer span {
+    color: firebrick;
+}

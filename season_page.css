@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans+TC:100,300,400,500,700,900&display=swap");
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css");
+.label {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    /*justify-content:center->左右置中*/
+}
+
+.season_btn {
+    text-align: center;
+    color: #fff;
+    background-color: #EA994A;
+    width: 540px;
+    height: 90px;
+    border-radius: 20px;
+    line-height: 100px;
+    font-size: 30px;
+    margin: 20px;
+}
+
+.season_switch {
+    clear: both;
+    position: relative;
+    display: flex;
+    max-width: 1660px;
+    max-height: 360px;
+    /*text-justify: auto;*/
+    /*不換行*/
+    list-style: none;
+    /* 移除項目符號 */
+    margin: 20px 0px;
+    padding: 0px 0px;
+    text-align: center;
+    align-items: center;
+    font-size: 20px;
+    justify-content: flex-start;
+}
+
+.season_switch_spring {
+    display: flex;
+    background-color: #e7e9b9;
+    color: #EA994A;
+    width: 360px;
+    height: 360px;
+    line-height: 180px;
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    margin: 0 5px 0 0;
+    border-radius: 20px;
+}
+
+.season_switch_spring img {
+    width: auto;
+}
+
+.season_switch_summer {
+    background-color: #e7e995;
+    color: #EA994A;
+    width: 360px;
+    height: 360px;
+    margin: 0 5px 0 0;
+    border-radius: 20px;
+}
+
+.season_switch_fall {
+    background-color: #e7e9b9;
+    color: #EA994A;
+    width: 360px;
+    height: 360px;
+    margin: 0 5px 0 0;
+    border-radius: 20px;
+}
+
+.season_switch_winter {
+    background-color: #e7e9b9;
+    color: #EA994A;
+    width: 360px;
+    height: 360px;
+    border-radius: 20px;
+}
+
+.fruit4 {
+    max-width: 1660px;
+    height: 870px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: antiquewhite;
+}
+
+.season_box {
+    max-width: 790px;
+    max-height: 400px;
+    display: flex;
+}
+
+.season_box img {
+    max-width: 790px;
+    max-height: 400px;
+}

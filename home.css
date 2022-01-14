@@ -111,6 +111,7 @@ body {
 
 .main-header .header-search input {
     border-radius: 10px 0 0 10px;
+    max-width: 300px;
     max-height: 80px;
     background-color: #EA994A;
     border: solid 1px #D26E23;

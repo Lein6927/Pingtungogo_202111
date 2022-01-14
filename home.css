@@ -119,7 +119,7 @@ body {
 .main-header .header-search button {
     border-radius: 0 10px 10px 0;
     max-height: 80px;
-    max-width: 80px;
+    max-width: 100px;
     background-color: #EA994A;
     border: solid 1px #D26E23;
     color: #FFF;

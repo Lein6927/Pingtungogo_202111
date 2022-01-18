@@ -81,6 +81,9 @@
     border-radius: 20px;
 }
 
+
+/*--------水果一覽-----------*/
+
 .fruit4 {
     max-width: 1660px;
     height: 870px;
@@ -99,4 +102,7 @@
 .season_box img {
     max-width: 790px;
     max-height: 400px;
+    width: 80%;
+    height: 80%;
+    border-radius: 20px;
 }

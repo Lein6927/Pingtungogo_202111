@@ -1,0 +1,36 @@
+.label {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    /*justify-content:center->左右置中*/
+}
+
+.season_btn {
+    text-align: center;
+    color: #fff;
+    background-color: #EA994A;
+    width: 540px;
+    height: 90px;
+    border-radius: 20px;
+    line-height: 100px;
+    font-size: 30px;
+    margin: 20px;
+}
+
+.item {
+    display: flex;
+    max-width: 1660px;
+}
+
+.item img {
+    width: 570px;
+    height: 500px;
+}
+
+.item .fruit_article {
+    margin: 0 0 0 20px;
+    padding: 20px;
+    width: 980px;
+    max-height: 500px;
+}

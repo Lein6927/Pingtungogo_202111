@@ -36,6 +36,7 @@
     align-items: center;
     font-size: 20px;
     justify-content: flex-start;
+    overflow: hidden;
 }
 
 .season_switch_spring {
@@ -95,14 +96,48 @@
 .season_box {
     max-width: 790px;
     max-height: 400px;
-    width: 700px;
     display: flex;
+    overflow: hidden;
+    float: left;
+    position: relative;
+    margin: 53px 36px;
+    align-items: center;
 }
 
 .season_box img {
     max-width: 790px;
     max-height: 400px;
-    width: 80%;
+    width: 100%;
     height: 80%;
     border-radius: 20px;
+}
+
+.season_box .middle {
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /*background-color: #EA994A;*/
+    color: #ffffffff;
+    padding: 10px 40px;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.season_box:hover a {
+    box-shadow: 0 0 8px 4px var(--mimi);
+}
+
+.season_box:hover img {
+    opacity: 0.7;
+    filter: blur(3px);
+    /*設定圖片模糊*/
+}
+
+.season_box:hover .middle {
+    opacity: 1;
+    transition: 0.3s linear;
 }

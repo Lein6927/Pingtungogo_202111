@@ -24,8 +24,11 @@
 }
 
 .item img {
+    margin: 0 0 0 20px;
     width: 570px;
     height: 500px;
+    border-radius: 20px;
+    align-items: center;
 }
 
 .item .fruit_article {
@@ -33,4 +36,16 @@
     padding: 20px;
     width: 980px;
     max-height: 500px;
+    border: solid 1px #D26E23;
+    border-radius: 20px;
+}
+
+h3 {
+    color: #EA994A;
+    margin: 5px 0;
+}
+
+p {
+    color: #AD5A16;
+    margin: 10px 0;
 }

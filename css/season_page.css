@@ -87,20 +87,25 @@
 
 .fruit4 {
     max-width: 1660px;
-    height: 870px;
+    max-height: 870px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     background-color: antiquewhite;
+    border-radius: 20px;
 }
 
 .season_box {
     max-width: 790px;
-    max-height: 400px;
     display: flex;
     overflow: hidden;
     float: left;
     position: relative;
-    margin: 53px 36px;
+    align-items: center;
+    margin: 25px 36px;
+}
+
+.season_box a {
+    position: relative;
     align-items: center;
 }
 

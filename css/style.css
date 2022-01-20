@@ -65,7 +65,7 @@
 }
 
 .season_switch_spring {
-    display: flex;
+    display: block;
     background-color: #e7e9b9;
     color: #EA994A;
     width: 360px;
@@ -118,6 +118,10 @@
     height: 600px;
     display: flex;
     background-color: #E7E9B9;
+    overflow: hidden;
+    align-items: center;
+    /*交錯軸對齊*/
+    justify-content: center;
 }
 
 .knowledge .know_img {

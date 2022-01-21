@@ -71,6 +71,9 @@ body {
 
 .main-header .main-nav a:hover {
     transform: translateY(-10px);
+    background-color: #FFF;
+    color: #EA994A;
+    border: solid 1px #D26E23;
 }
 
 .main-header .main-nav a:after {
@@ -188,7 +191,7 @@ button i {
 footer {
     max-width: 1920px;
     max-height: 190px;
-    margin: 30px 0px 0px;
+    margin: 50px 0px 1px;
     background-color: #EA994A;
     color: #fff;
 }

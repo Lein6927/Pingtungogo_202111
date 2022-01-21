@@ -1,5 +1,8 @@
 /*網頁內容物的樣式表*/
 
+
+/*---對應index.html---*/
+
 @import url("https://fonts.googleapis.com/css?family=Noto+Sans+TC:100,300,400,500,700,900&display=swap");
 @import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css");
 .space {
@@ -20,6 +23,7 @@
     width: 100%;
     height: auto;
     overflow: hidden;
+    border-radius: 20px;
 }
 
 .space2 {
@@ -46,39 +50,116 @@
     margin: 20px;
 }
 
+
+/*----四季狗狗插畫----*/
+
 .season_switch {
     clear: both;
     position: relative;
     display: flex;
-    max-width: 1660px;
+    max-width: 1661px;
     max-height: 360px;
     /*text-justify: auto;*/
     /*不換行*/
     list-style: none;
     /* 移除項目符號 */
     margin: 20px 0px;
-    padding: 0px 0px;
     text-align: center;
     align-items: center;
     font-size: 20px;
     justify-content: flex-start;
+    overflow: hidden;
+    column-count: 4;
 }
 
+.season_switch a {
+    text-decoration: none;
+}
+
+.season_block {
+    position: relative;
+    max-width: 360px;
+    max-height: 360px;
+}
+
+.season_block img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    border: solid 1px #EA994A;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    background-color: rgba(234, 153, 74, 0.9);
+    overflow: hidden;
+    max-width: 360px;
+    height: 0;
+    transition: 0.4s ease;
+    border-radius: 20px;
+}
+
+.season_block:hover .overlay {
+    height: 100%;
+}
+
+.season_block .text {
+    position: absolute;
+    font-size: 30px;
+    position: absolute;
+    bottom: 120px;
+    left: 20%;
+    right: 20%;
+    text-align: center;
+    color: #FFFFFF;
+    overflow: hidden;
+}
+
+
+/*
+.season_block .text {
+    position: absolute;
+    bottom: 20px;
+    left: 0%;
+    right: 0%;
+    background-color: rgba(234, 153, 74, 0.9);
+    overflow: hidden;
+    width: 350px;
+    height: 0;
+    transition: 0.5s ease;
+    /* border-radius: 0 0 15px 15px;*/
+
+
+/*
+.season_block:hover img {
+    filter: blur(3px);
+    /*設定圖片模糊*/
+
+
+/*opacity: 0.7;
+}*/
+
+.season_block:hover .text {
+    opacity: 1;
+    transition: 0.3s linear;
+}
+
+
+/*
 .season_switch_spring {
     display: block;
     background-color: #e7e9b9;
     color: #EA994A;
-    width: 360px;
-    height: 360px;
+    max-width: 360px;
+    max-height: 360px;
     line-height: 180px;
     background-position: right bottom;
     background-repeat: no-repeat;
     margin: 0 5px 0 0;
     border-radius: 20px;
-}
-
-.season_switch_spring img {
-    width: auto;
 }
 
 .season_switch_summer {
@@ -106,12 +187,16 @@
     height: 360px;
     border-radius: 20px;
 }
+*/
 
 .season_switch li .space2 {
     background-color: #555;
     width: 72px;
     height: auto;
 }
+
+
+/*----養身小知識-----*/
 
 .knowledge {
     max-width: 1660px;

@@ -1,0 +1,200 @@
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans+TC:100,300,400,500,700,900&display=swap");
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css");
+* {
+    border: solid 1px black;
+}
+
+body,
+html {
+    font-family: 'Noto Sans TC', '微軟正黑體', sans-serif;
+    color: #545454ff;
+    height: 100%;
+    max-width: 1920px;
+}
+
+#header {
+    margin-top: 10px;
+    height: 190px;
+    display: inline-flex;
+    padding: 0px 30px;
+}
+
+
+/*
+.main-header {
+    width: 1660px;
+    padding: 0px;
+}*/
+
+#logo {
+    float: left;
+    background-image: url("https://images.plurk.com/3Qjbffs6TJDzwN2hBknW6D.png");
+    background-repeat: no-repeat;
+    background-position: 65% 50%;
+    background-size: contain;
+}
+
+#logo a {
+    display: block;
+    width: 300px;
+    height: 190px;
+}
+
+.main-nav {
+    margin: 0 15px;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    /*垂直置中*/
+}
+
+.main-nav a {
+    width: 200px;
+    margin: 0 10px;
+    display: block;
+    line-height: 60px;
+    font-size: 25px;
+    text-decoration: none;
+    text-align: center;
+    list-style: none;
+    color: #FFF;
+    background-color: #EA994A;
+    border: solid 1px #D26E23;
+    border-radius: 10px;
+    position: relative;
+    transform: translateY(0px);
+}
+
+.main-nav a:hover {
+    text-decoration: none;
+    background-color: #FFF;
+    color: #EA994A;
+    border: solid 1px #D26E23;
+    transform: translateY(-10px);
+}
+
+.main-nav ul {
+    display: flex;
+    float: right;
+}
+
+.main-nav li {
+    float: left;
+    position: relative;
+    font-size: 24px;
+    list-style: none;
+    /*取消項目符號*/
+}
+
+.main-nav ul li ul {
+    margin-top: 1px;
+    visibility: hidden;
+    position: absolute;
+    /*以上層結構的位置作為絕對位置, 在這裡表示以上層的li作為下拉選單*/
+    top: 100%;
+    overflow: visible;
+    /*display: none;*/
+    display: flex;
+    flex-direction: column;
+    /*flex-direction: column並排清單*/
+    transform: translateX(-40px);
+}
+
+.main-nav li:hover>ul {
+    visibility: visible;
+}
+
+.header-search button,
+.header-search input {
+    border: none;
+    background-color: #FFF;
+    width: 400px;
+    padding: 5px 10px;
+    margin: 0px;
+}
+
+.main-header .header-search {
+    display: flex;
+    padding-left: 10px;
+    width: 300px;
+    height: 60px;
+    /*緊密排列*/
+}
+
+.main-header .header-search input {
+    border-radius: 10px 0 0 10px;
+    max-width: 220px;
+    max-height: 80px;
+    background-color: #EA994A;
+    border: solid 1px #D26E23;
+}
+
+.main-header .header-search button {
+    border-radius: 0 10px 10px 0;
+    max-height: 80px;
+    max-width: 100px;
+    background-color: #EA994A;
+    border: solid 1px #D26E23;
+    color: #FFF;
+    font-size: 25px;
+}
+
+
+/*----------------內容---------------------*/
+
+.label {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    /*justify-content:center->左右置中*/
+}
+
+.season_btn {
+    text-align: center;
+    color: #fff;
+    background-color: #EA994A;
+    width: 540px;
+    height: 90px;
+    border-radius: 20px;
+    line-height: 100px;
+    font-size: 30px;
+    margin: 20px;
+    text-decoration: none;
+}
+
+.season_btn :hover {
+    background-color: #fff;
+    color: #EA994A;
+}
+
+
+/*---------------------*/
+
+#footer {
+    max-width: 1920px;
+    height: 190px;
+    margin: 50px 0px 1px;
+    background-color: #EA994A;
+    color: #fff;
+    clear: both;
+}
+
+#footer li {
+    font-size: 20pt;
+    margin: 0px;
+    list-style: none;
+    /* 移除項目符號 */
+    display: block;
+    /*
+    flex-direction: column;
+    */
+}
+
+#footer small {
+    display: block;
+    font-size: 16px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}

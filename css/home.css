@@ -1,14 +1,18 @@
 /*----------導覽列-----------*/
+/*---------對應index---------*/
 
 @import url("https://fonts.googleapis.com/css?family=Noto+Sans+TC:100,300,400,500,700,900&display=swap");
 @import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css");
+
 * {
     margin: 0;
     padding: 0;
     list-style: none;
     font-family: 'Noto Sans TC', sans-serif;
-    border: solid 1px;
+
 }
+
+/*border: solid 1px;*/
 
 body {
     padding: 0px 130px;
@@ -199,4 +203,13 @@ footer {
 footer li {
     font-size: 22pt;
     margin: 0px;
+}
+
+footer li a {
+    text-decoration: none;
+}
+
+footer li img {
+    margin-right: 20px;
+
 }

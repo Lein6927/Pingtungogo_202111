@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+<!--導覽列要改掉-->
 
 <head>
     <meta charset="UTF-8">
@@ -10,19 +11,24 @@
     <meta property="og:type" content="article" />
     <meta property="og:title" content="When Great Minds Don’t Think Alike" />
     <meta property="og:description" content="How much does culture influence creative thinking?" />
-    <meta property="og:image" content="http://static01.nyt.com/images/2015/02/19/arts/international/19iht-btnumbers19A/19iht-btnumbers19A-facebookJumbo-v2.jpg" />
+    <meta property="og:image"
+        content="http://static01.nyt.com/images/2015/02/19/arts/international/19iht-btnumbers19A/19iht-btnumbers19A-facebookJumbo-v2.jpg" />
     <title>Pingtungogo</title>
     <link rel="shortcut icon" href="https://images.plurk.com/3Qjbffs6TJDzwN2hBknW6D.png">
     <!--頁籤小圖示-->
     <!-- 
     <link rel="Pingtungogo" href="home.css">
     -->
+    <!--
     <link rel="stylesheet" type="text/css" href="css/home.css">
+    -->
+    <link rel="stylesheet" type="text/css" href="css/basic.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
 
 </head>
 
 <body>
+    <!--
     <header class="main-header">
         <div class="container">
             <a href="#" class="Logo">
@@ -31,7 +37,7 @@
                 <a href="index.html">首頁</a>
                 <div class="dropdown">
                     <a href="season-page.html" class="dropbtn">四季水果
-                        <i class="fa fa-caret-down"></i> 
+                        <i class="fa fa-caret-down"></i>
                     </a>
                     <div class="dropdown-content">
                         <a href="season-page.html">春季水果</a>
@@ -45,13 +51,44 @@
                 <form class="header-search">
                     <input type="search" name="" id="">
                     <button>搜尋
-                       <!-- <i class="fa fa-search"></i>-->
+                        
                     </button>
                 </form>
             </div>
 
         </div>
     </header>
+    -->
+    <!--導覽列-->
+    <div id="header" class="main-header">
+        <div id="logo">
+            <a href="index.html"></a>
+        </div>
+        <div class="main-nav">
+            <ul>
+                <li><a href="index.html">首頁</a></li>
+                <li><a href="season-page.html">四季水果</a>
+                    <ul>
+                        <li><a href="season-page.html">春季水果</a></li>
+                        <li><a href="season-page.html">夏季水果</a></li>
+                        <li><a href="season-page.html">秋季水果</a></li>
+                        <li><a href="season-page.html">冬季水果</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="about.html">關於果果</a>
+                </li>
+                <li>
+                    <form class="header-search">
+                        <input type="search" name="search" id="">
+                        <sumit></sumit>
+                        <button>搜尋</button>
+                        <!-- <i class="fa fa-search"></i>-->
+                    </form>
+                </li>
+            </ul>
+        </div>
+    </div>
 
     <!-- 內容區塊  -->
     <div class="space"></div>
@@ -122,14 +159,36 @@
     <!--結束content -->
 </body>
 
-
+<!--
 <footer>
+
     <ul>
         <li>Pingtungogo@gmail.com</li>
         <li>0912345678</li>
         <li>Pingtun果果</li>
     </ul>
 </footer>
+-->
+
+<!--頁尾-->
+<div id="footer">
+    <ul>
+        <li>
+            <a href="">
+                <img src="icon\email_white_24dp.svg" alt=""> Pingtungogo@gmail.com
+            </a>
+        </li>
+        <li><a href="">
+                <img src="icon\phone_android_white_24dp.svg" alt=""> 0912345678
+            </a>
+        </li>
+        <li><a href="">
+                <img src="icon\facebook-brands.svg" alt=""> Pingtun果果
+            </a>
+        </li>
+    </ul>
+    <small>Copyright &copy;2022 Pingtungogo</small>
+</div>
 
 
 </html>

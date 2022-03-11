@@ -1,9 +1,11 @@
 @import url("https://fonts.googleapis.com/css?family=Noto+Sans+TC:100,300,400,500,700,900&display=swap");
 @import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css");
+
+/*
 * {
     border: solid 1px black;
 }
-
+*/
 body,
 html {
     font-family: 'Noto Sans TC', '微軟正黑體', sans-serif;
@@ -19,6 +21,9 @@ html {
     padding: 0px 30px;
 }
 
+body {
+    margin: 0 50px;
+}
 
 /*
 .main-header {
@@ -46,6 +51,7 @@ html {
     display: flex;
     align-items: center;
     /*垂直置中*/
+    float: right;
 }
 
 .main-nav a {
@@ -189,6 +195,7 @@ html {
     /*
     flex-direction: column;
     */
+    margin-bottom: 5px;
 }
 
 #footer small {
@@ -197,4 +204,13 @@ html {
     justify-content: center;
     text-align: center;
     align-items: center;
+}
+
+#footer li a {
+    color: #FFF;
+    text-decoration: none;
+}
+
+#footer li a:hover {
+    text-decoration: underline;
 }

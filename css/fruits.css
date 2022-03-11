@@ -1,5 +1,56 @@
 /*對應f-水果*/
 
+/*
+* {
+    border: solid 1px #000;
+}*/
+
+/*麵包屑*/
+.breadcrumb {
+    margin: 20px;
+    max-width: 200px;
+    border-bottom: solid 3px #EA994A;
+    font-size: 16px;
+    align-items: right;
+
+
+}
+
+.breadcrumb ol {
+    display: flex;
+    list-style: none;
+
+}
+
+.breadcrumb li, a {
+    color: #777;
+}
+
+.breadcrumb li {
+    padding-left: 5px;
+}
+
+.breadcrumb li::before {
+    content: "＞";
+    height: 20px;
+    color: #EA994A;
+
+}
+
+.breadcrumb a {
+    text-decoration: none;
+}
+
+/*失敗
+.breadcrumb li::after {
+    height: 16px;
+    background-image: url("icon\chevron_right_black_24dp.svg");
+    background-repeat: no-repeat;
+    vertical-align: middle;
+}
+*/
+
+/*水果導覽列表*/
 .label {
     display: flex;
     text-align: center;
@@ -31,6 +82,7 @@
     transition: 0.3s;
 }
 
+/*水果種類區塊*/
 .item {
     display: flex;
     max-width: 1660px;
@@ -56,12 +108,12 @@
     border-radius: 20px;
 }
 
-h3 {
+.fruit_article h3 {
     color: #EA994A;
     margin: 5px 0;
 }
 
-p {
+.fruit_article p {
     color: #AD5A16;
     margin: 10px 0;
 }

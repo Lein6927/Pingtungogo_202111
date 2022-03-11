@@ -1,0 +1,12 @@
+Css:
+home ->舊有整體架構:
+	index 
+
+
+basic->新的整體架構:
+	about
+
+style->一些物件樣式:label、button等等
+	index、about、fruits
+
+	
